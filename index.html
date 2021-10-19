@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+
+        <nav id="heading">
+        <h1 id="h1" title="heading">The Falling Ball Game!</h1>
+        </nav>
+    <div id="content">
+
+    <div id="game" style="background-image: url(Files/bg1.png);">
+        <div id="ball">
+
+        </div>
+    </div>
+    <div id="info">
+        <button id="btn1" type="button" onclick="myrestart()">Restart</button>
+        <div id="audio">
+            <button id="btn2" type="button">Audio<span id="audicon" style="font-weight: bolder;">On</span></button>
+            <audio id="myaud" autoplay loop>
+                <source src="Files/Test_audio.ogg" type="audio/ogg">
+            </audio>
+        </div>
+
+        <h3 id="scoreh">Score: &nbsp;<span id="score" style="font-size: 22px;">0</span></h3>
+        <div id="sctext">
+            <p id="sctexts">Good Luck!!!</p>
+        </div>
+        <p style="padding:3em 0em 1em 7em;">Developed by:<br><span> Sushant Srivastav</span></p>
+    </div>
+</div>
+
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>
